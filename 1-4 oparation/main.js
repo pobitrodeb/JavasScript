@@ -14,3 +14,7 @@ console.log('The Multiplication Result is', multiplicationResult); // multiplica
 
 var divissionResult = x / y; 
 console.log('The Divission Result is',divissionResult); // divission operator 
+
+
+var modulusResult = x % y; 
+console.log('The Divission Result is',modulusResult); //modulus operator  
