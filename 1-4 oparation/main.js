@@ -6,4 +6,8 @@ console.log('The Total Result is', additionResult); // addition operator
 
 
 var subtractionResult = x - y; 
-console.log('The Total Result is', subtractionResult); //  subtraction operator
+console.log('The Subtration is', subtractionResult); //  subtraction operator
+
+var multiplicationResult = x * y; 
+console.log('The Multiplication Result is', multiplicationResult); // multiplication operator 
+
