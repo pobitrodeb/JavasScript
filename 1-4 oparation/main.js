@@ -18,3 +18,7 @@ console.log('The Divission Result is',divissionResult); // divission operator
 
 var modulusResult = x % y; 
 console.log('The Divission Result is',modulusResult); //modulus operator  
+
+var valeOfIncrement = 35;
+valeOfIncrement +=10; 
+console.log(valeOfIncrement); 
