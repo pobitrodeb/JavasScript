@@ -11,3 +11,6 @@ console.log('The Subtration is', subtractionResult); //  subtraction operator
 var multiplicationResult = x * y; 
 console.log('The Multiplication Result is', multiplicationResult); // multiplication operator 
 
+
+var divissionResult = x / y; 
+console.log('The Divission Result is',divissionResult); // divission operator 
