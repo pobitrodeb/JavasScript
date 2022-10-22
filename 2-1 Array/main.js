@@ -22,3 +22,8 @@ console.log(studentName);
 console.log('All Student : ' + studentName); 
 studentName.unshift('Dalim kUmar');  // add begining value 
 console.log(studentName); 
+
+// insert an item into an array at a specific index
+console.log('All Student : ' + studentName); 
+studentName.splice(3,0, 'pobitrodeb');  // 3 is index number , 0 is first number 
+console.log(studentName);
