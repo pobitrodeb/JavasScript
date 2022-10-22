@@ -18,3 +18,7 @@ console.log(studentName);
 console.log('All Student : ' + studentName); 
 studentName.pop(studentName);  // delete array last value 
 console.log(studentName); 
+
+console.log('All Student : ' + studentName); 
+studentName.unshift('Dalim kUmar');  // add begining value 
+console.log(studentName); 
