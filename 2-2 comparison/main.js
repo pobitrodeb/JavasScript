@@ -13,8 +13,14 @@ console.log (sajibAge != 100);
 // !== Operator 
 console.log(sajibAge !== shawnAge); 
 
-// < gether than 
+// <	less than
 console.log(sajibAge < shawnAge); 
 
-// < less than 
+// >	greater than
 console.log (shawnAge > sajibAge); 
+
+// <= greater than or equal to 
+console.log(sajibAge <= shawnAge); 
+
+// =< less than or equal to 
+console.log (shawnAge >= sajibAge); 
