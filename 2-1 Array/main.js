@@ -14,3 +14,7 @@ console.log('Afer Replace All student : ' + studentName);
 console.log('All Student : ' + studentName); 
 studentName.push('Sajib'); // add array value 
 console.log(studentName); 
+
+console.log('All Student : ' + studentName); 
+studentName.pop(studentName);  // delete array last value 
+console.log(studentName); 
