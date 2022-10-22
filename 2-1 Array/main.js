@@ -10,3 +10,7 @@ console.log(findIndexValue);
 console.log('Now All Studentent are : ' + studentName); 
 studentName[5] = 'Guljar'; // replace value by indx numberr 
 console.log('Afer Replace All student : ' + studentName); 
+
+console.log('All Student : ' + studentName); 
+studentName.push('Sajib'); // add array value 
+console.log(studentName); 
