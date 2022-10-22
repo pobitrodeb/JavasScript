@@ -28,6 +28,6 @@ console.log('All Student : ' + studentName);
 studentName.splice(3,0, 'tushar');  // 3 is index number , 0 is first number 
 console.log(studentName);
 
-// insert an item into an array at a specific index
+// delete an item into an array at a specific index
 studentName.splice(3, 1);// 3 is index number , 1 means if your array positive 
 console.log(studentName);
