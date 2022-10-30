@@ -15,3 +15,12 @@ function numberMultiple(a, b) {
 
   var numberIs = numberMultiple(15, 41);
   console.log(numberIs);
+
+// first declar variable and value than call funcation 
+  var carName = 'BMW'; 
+  function carNameFucation()
+  {
+    console.log(carName); 
+  }
+
+  carNameFucation(); 
