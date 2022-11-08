@@ -51,6 +51,7 @@ var btn = document.getElementById('textChangeBtn');
 btn.onclick = function(){
  //alert('Congratulations'); 
   h1.innerHTML = 'Text Change for click';
+  h1.className = 'customStyle';
 }
 
 
