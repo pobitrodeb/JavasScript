@@ -49,5 +49,10 @@ console.log(headinghH1);
 // Text change button 
 var btn = document.getElementById('textChangeBtn'); 
 btn.onclick = function(){
- alert('Congratulations'); 
+ //alert('Congratulations'); 
+  h1.innerHTML = 'Text Change for click';
 }
+
+
+ 
+
