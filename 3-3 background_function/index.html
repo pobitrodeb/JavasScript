@@ -29,25 +29,26 @@
         addFuncation(15, 11); 
         console.log(addFuncation);
 
-        function divMake(x, y)
+
+        //Create Element 
+        function divMake(height, width, bg)
         {
             var div = document.createElement('div'); 
-            div.style.height    = '110px'; 
-            div.style.width     =  '110px'; 
+            div.style.height    = height+'px'; 
+            div.style.width     =  width+'px'; 
             div.style.margin    = '15px'
-            div.style.backgroundColor = 'red'; 
+            div.style.backgroundColor = bg; 
             document.getElementById('res').append(div)
         }
 
-        divMake(15, 25); 
+        divMake(100, 180, 'red');
         console.log(divMake);
 
-        divMake(18, 25); 
+        divMake(180, 180, 'green');
         console.log(divMake);
 
-        divMake(22, 25); 
+        divMake(180, 350, 'black');
         console.log(divMake);
-    
 
     </script>
 </body>
