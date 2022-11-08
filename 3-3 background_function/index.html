@@ -9,6 +9,11 @@
 <body>
     <h1>Javascript Funcation | How to make background </h1>
 
+        <div id="res">
+
+        </div>
+
+
     <script src="main.js"></script>
     <script>
 
@@ -23,6 +28,26 @@
 
         addFuncation(15, 11); 
         console.log(addFuncation);
+
+        function divMake(x, y)
+        {
+            var div = document.createElement('div'); 
+            div.style.height    = '110px'; 
+            div.style.width     =  '110px'; 
+            div.style.margin    = '15px'
+            div.style.backgroundColor = 'red'; 
+            document.getElementById('res').append(div)
+        }
+
+        divMake(15, 25); 
+        console.log(divMake);
+
+        divMake(18, 25); 
+        console.log(divMake);
+
+        divMake(22, 25); 
+        console.log(divMake);
+    
 
     </script>
 </body>
