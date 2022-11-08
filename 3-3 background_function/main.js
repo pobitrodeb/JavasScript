@@ -43,3 +43,11 @@ function headinghH1()
 
 headinghH1();
 console.log(headinghH1);
+
+
+
+// Text change button 
+var btn = document.getElementById('textChangeBtn'); 
+btn.onclick = function(){
+ alert('Congratulations'); 
+}
