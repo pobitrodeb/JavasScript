@@ -8,10 +8,8 @@
 </head>
 <body>
     <h1>Javascript Funcation | How to make background </h1>
-
-        <div id="res">
-
-        </div>
+    <div id="res"></div>
+    <div id="h1"></div>
 
 
     <script src="main.js"></script>
@@ -49,7 +47,19 @@
 
         divMake(180, 350, 'black');
         console.log(divMake);
+// HTML Inner Tag Element 
 
+        function headinghH1()
+        {
+           var h1 = document.createElement('h1'); 
+            h1.innerHTML = 'Thi is Heading Tag';
+            h1.style.background = 'black'; 
+            h1.style.color = 'white'; 
+            document.getElementById('h1').append(h1);
+        }
+
+        headinghH1();
+        console.log(headinghH1);
     </script>
 </body>
 </html>
