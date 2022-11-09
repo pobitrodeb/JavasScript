@@ -6,3 +6,5 @@ const studentName =
 }
 
 console.log(studentName);
+
+console.log(studentName.firstName);
