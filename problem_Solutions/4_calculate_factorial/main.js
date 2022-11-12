@@ -1,9 +1,12 @@
-var factorial   = 1; 
-
-for(var i = 0; i <=15; i++)
+function getFactorialNumber(number)
 {
-    console.log(i); 
-    factorial = factorial  * i; 
+    var factorial = 1; 
+    for( i = 1; i <= number; i++)
+    {
+       factorial = factorial * i; 
+    }
+    return factorial;
 }
 
-console.log(factorial);
+var numberValue = getFactorialNumber(7); 
+console.log(numberValue);
