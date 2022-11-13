@@ -10,7 +10,11 @@ var products = [
 function searchProducts(products, searchKey)
 {
     for (var product of products)
-    console.log(product.price);
+    if(product.productName.includes('table'))
+    {
+        console.log(product.productName);
+    }
+    
 }
 
 searchProducts(products);
