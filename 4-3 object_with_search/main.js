@@ -7,14 +7,14 @@ var products = [
     { productName : 'Reading table',            price: '2800' }
 ];
 
-function searchProducts(products, searchKey)
+function searchProducts(products, searchKeyword)
 {
     for (var product of products)
-    if(product.productName.includes('table'))
+    if(product.productName.includes(searchKeyword))
     {
         console.log(product.productName);
     }
     
 }
 
-searchProducts(products);
+searchProducts(products, 'table');
