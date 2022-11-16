@@ -1,6 +1,5 @@
 document.getElementById('update-name').addEventListener('click', function(){
 
     var filed  = document.getElementById('name-filed');
-    console.log(filed.value);
-
+    var output = console.log(filed.value);
 })
