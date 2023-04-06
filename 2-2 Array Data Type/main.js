@@ -3,4 +3,7 @@ var division  = ["Dhaka", "Rangpur", "Sylet"];
 // console.log(division);
 
 // find index number 
-console.log(division[0]);
+// console.log(division[0]);
+
+// length check 
+console.log(division.length);
