@@ -9,26 +9,34 @@ var arr = [10, 23, ['a', 'b', 'c']];
 // Multi array's object data
 var multiArry = [ 1,2,["a", ["a1", "a2"], "b"], 3,["b1","b2"]];
 
- console.log(multiArry[0]); 
-//Result : 1
- console.log(multiArry[1]); 
-//Result : 2
- console.log(multiArry[2]);
-//Result : (3) ['a', Array(2), 'b']
- console.log(multiArry[2][0]);
-//Result : a
- console.log(multiArry[2][1][0]);
-//Result : a1
- console.log(multiArry[2][1][1]);
-//Result : a2
- console.log(multiArry[3]);
-//Result : 3
- console.log(multiArry[4]);
-//Result : (2) ['b1', 'b2']
- console.log(multiArry[4][0]);
-//Result : b1
- console.log(multiArry[4][1]);                   
-//Result : b2
+//  console.log(multiArry[0]); 
+// //Result : 1
+//  console.log(multiArry[1]); 
+// //Result : 2
+//  console.log(multiArry[2]);
+// //Result : (3) ['a', Array(2), 'b']
+//  console.log(multiArry[2][0]);
+// //Result : a
+//  console.log(multiArry[2][1][0]);
+// //Result : a1
+//  console.log(multiArry[2][1][1]);
+// //Result : a2
+//  console.log(multiArry[3]);
+// //Result : 3
+//  console.log(multiArry[4]);
+// //Result : (2) ['b1', 'b2']
+//  console.log(multiArry[4][0]);
+// //Result : b1
+//  console.log(multiArry[4][1]);                   
+// //Result : b2
 
 
-// 
+// Object 
+
+var object = {
+    name : "Pobitro", 
+    email: "pobitrodebnath", 
+    mobile : ['014xxxxxxxxx', '015xxxxxxxxx']
+}
+console.log(object.mobile[0]);
+//Result : 014xxxxxxxxx
