@@ -9,5 +9,8 @@ var division  = ["Dhaka", "Rangpur", "Sylet"];
 // console.log(division.length);
 
 // new data add 
-division.push("Rajsashi"); 
+division.push("Rajsashi", "Barishal"); 
+console.log(division);
+
+division.pop(); 
 console.log(division);
