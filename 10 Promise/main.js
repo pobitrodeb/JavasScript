@@ -24,6 +24,18 @@ let allPersons  = [
 function createPerson(person){
    let prom = new Promise(function(reslove, reject){
     allPersons.push(person); 
+
+    let err = true; 
+
+    if(!err)
+    {
+        reslove();
+    }else
+    {
+        reject("Data Error something is error"); 
+    }
+
+
     reslove(); 
    });
    return prom; 
