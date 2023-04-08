@@ -25,6 +25,7 @@ function createPerson(person){
    let prom = new Promise(function(reslove, reject){
     allPersons.push(person); 
 
+    // Erro chek 
     let err = true; 
 
     if(!err)
@@ -54,4 +55,8 @@ function getData(){
 }
 
 /// add person 
-createPerson({"name": "keyamoni", "depatment": "love"}).then(getData); 
+createPerson({"name": "keyamoni", "depatment": "love"})
+.then(getData)
+.catch(function(err){
+    console.log(err)
+}); 
