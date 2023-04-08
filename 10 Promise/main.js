@@ -26,7 +26,7 @@ function createPerson(person){
     allPersons.push(person); 
 
     // Erro chek 
-    let err = true; 
+    let err = false; 
 
     if(!err)
     {
