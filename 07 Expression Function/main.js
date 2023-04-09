@@ -29,3 +29,11 @@ let something3 = fiveParam => {
 }
 
 something3("Five Pram");
+
+
+//Arrow Function [ if your no params]
+
+let something4 = () => {
+  console.log("NO Params");
+}
+something4();
