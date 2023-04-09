@@ -16,7 +16,7 @@ something1("Secound Param");
 
 //Arrow Function 
 
-let something2 = (thirdParam) => {
-  console.log("Call Somethins Funcation " + thirdParam);
+let something2 = (thirdParam, fourParam) => {
+  console.log("Call Somethins Funcation " + thirdParam + fourParam);
 }
-something2("Thirsd Param")
+something2("Thirsd Param", "Four Params")
