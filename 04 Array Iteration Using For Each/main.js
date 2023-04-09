@@ -16,3 +16,11 @@ var users = ['liton das', 'Shakib Al Hasan', 'Hero Alam'];
 
 users.forEach(allData);
 
+// Use js template literals
+
+let result = function (item, i)
+{
+    console.log(`index number is: ${i} and iteam = ${item}` );
+}
+
+users.forEach(result);
