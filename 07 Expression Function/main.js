@@ -20,3 +20,12 @@ let something2 = (thirdParam, fourParam) => {
   console.log("Call Somethins Funcation " + thirdParam + fourParam);
 }
 something2("Thirsd Param", "Four Params")
+
+
+//Arrow Function [ if your one params]
+
+let something3 = fiveParam => {
+  console.log("Call is" + fiveParam);
+}
+
+something3("Five Pram");
