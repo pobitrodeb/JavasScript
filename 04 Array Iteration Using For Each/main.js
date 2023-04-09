@@ -24,3 +24,10 @@ let result = function (item, i)
 }
 
 users.forEach(result);
+
+// more shor cut 
+console.log("More ShortCut");
+
+let noCall = users.forEach(function(item, index){
+    console.log(item);
+})
