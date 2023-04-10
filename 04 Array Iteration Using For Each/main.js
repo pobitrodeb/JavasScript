@@ -31,3 +31,13 @@ console.log("More ShortCut");
 let noCall = users.forEach(function(item, index){
     console.log(item);
 })
+
+//// map 
+
+var employee = ['Rajon', 'Rasel', 'Younoch', 'Mobaraak']; 
+
+
+ var getData =  employee.map(function(iteam){
+  return iteam;
+})
+console.log(getData);
