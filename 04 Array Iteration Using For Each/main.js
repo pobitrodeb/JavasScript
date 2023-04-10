@@ -41,3 +41,12 @@ var employee = ['Rajon', 'Rasel', 'Younoch', 'Mobaraak'];
   return iteam;
 })
 console.log(getData);
+
+//use literals 
+  function addEmployee(iteam)
+  {
+     return `${iteam} + is a employee`; 
+  }
+
+  var mapEmployee = employee.map(addEmployee);
+  console.log(mapEmployee);
