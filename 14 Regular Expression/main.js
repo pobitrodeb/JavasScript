@@ -15,4 +15,8 @@ console.log(result);
 
 //test()
 let result2 = regularExperssion.test(str)
-console.log(result);
+console.log(result2);
+
+//match ---- as like exce function ------- 
+let result3 = str.match(regularExperssion)
+console.log(result3);
