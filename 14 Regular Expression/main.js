@@ -1,7 +1,7 @@
 let regularExperssion; 
 
 regularExperssion = / it is regular expression variable / ;
-regularExperssion = /It is string/
+regularExperssion = /it is string/i
 console.log(regularExperssion);
 
 
