@@ -25,3 +25,9 @@ console.log(result3);
 //search () 
 let searchData = str.search(regularExperssion)
 console.log(searchData);
+
+// replace() Retrun new string 
+let str2; 
+str2 = "this is string 2"; 
+let result4 =  str2.replace(regularExperssion, "HI")
+console.log(result4);
