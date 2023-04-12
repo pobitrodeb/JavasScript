@@ -6,7 +6,14 @@
 let regularExpression; 
 let stringData; 
 
-regularExpression = /hello world/ ; 
+// Meta Charecter 
+regularExpression = /^hello/ ;  // ^ Must Start With 
+regularExpression = /hello$/ ;  // $ Must End With 
+regularExpression = /h.llo/ ;  //  Must Start with End With 
+regularExpression = /h*llo/ ;  //  0 ro more times 
+regularExpression = /he?llo/ ;  // optional 
+
+
 stringData = "hello world";
 
 function reTest(regularExpression, stringData)
@@ -18,5 +25,7 @@ function reTest(regularExpression, stringData)
     }
     
 }
-
 reTest(regularExpression,stringData);
+
+
+// Meta Charecter 
